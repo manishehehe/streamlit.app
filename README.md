@@ -6,7 +6,7 @@
     pip install -r requirements.txt
     streamlit run app.py
 
-## Deploy (Streamlit Community Cloud)
+## Optional: deploy (Streamlit Community Cloud)
 1. Push this folder to a public GitHub repo (app.py at the root).
 2. share.streamlit.io → New app → pick the repo, main file `app.py` → Deploy.
 Note: leaderboard.csv lives on the server and resets when the app restarts/sleeps.
